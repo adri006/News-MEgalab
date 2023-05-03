@@ -1,11 +1,10 @@
-body,h1,h3,ul,button {
+body,h1,h3,p,ul,button {
     padding: 0;
     margin: 0;
 }
 
 label,
-h1,
-h3,button {
+h1,h2,h3,button {
     font-family: Ubuntu;
 }
 
@@ -15,6 +14,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(./media/Header.jpg);
+    margin-bottom: 40px;
 }
 
 .container {
@@ -72,9 +72,7 @@ ul {
 .form-check-top{
     margin-top: 18px;
 }
-.filt{
-    margin-top: 35px;
-}
+
 .filt-button{
     background-color: #7E5BC2;
     color: #fff;
@@ -87,4 +85,43 @@ ul {
 }
 [type=checkbox]{
     border: 1px solid #000000;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.news-card{
+    padding: 0 0 16px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.news-desc{
+    margin-left: 40px;
+}
+.news-title{
+    font-size: 24px;
+    line-height: 28px;
+}
+.news-date , .news-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858080;
+    margin-bottom: 8px;
+}
+
+.news-more{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7E5BC2;
+    margin: 8px 0;
+}
+.news_cards{
+    margin-left: 130px;
+}
+.share{
+    margin-top: 15px;
 }
