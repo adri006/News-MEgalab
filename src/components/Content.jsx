@@ -1,17 +1,14 @@
 import React from "react";
 import Header from "./Header";
+import Filtration from "./Filtration";
 
 const Content = () => {
     return (
         <>
             <Header />
-                <div className="mb-3 form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                    <label className="form-check-label" htmlFor="exampleCheck1">
-                        Check me out
-                    </label>
-                </div>
-                
+            <div className="container">
+                <Filtration />
+            </div>
         </>
     )
 }
